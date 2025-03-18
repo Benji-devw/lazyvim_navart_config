@@ -1,13 +1,4 @@
 return {
-  -- AI OLLAMA
-  {
-    "David-Kunz/gen.nvim", -- https://github.com/David-Kunz/gen.nvim
-    opts = {
-      model = "mistral", -- codestral / llama3.1 / deepseek
-      quit_map = "q",
-      show_model = true,
-    },
-  },
 
   -- Hop World
   -- {
