@@ -35,5 +35,5 @@ return {
     },
   },
 
-  -- ... autres configurations de plugins ...k
+  -- ... autres configurations de plugins ...
 }

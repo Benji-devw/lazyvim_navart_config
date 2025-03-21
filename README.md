@@ -13,22 +13,15 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - "David-Kunz/gen.nvim"
 - "github/copilot.vim",
 - "neovim/nvim-lspconfig",
-    ● copilot.lua 14.51ms  avante.nvim
-    ● dressing.nvim 23.91ms  avante.nvim
-    ● fzf-lua 10.57ms  avante.nvim
-    ● img-clip.nvim 61.72ms  avante.nvim
-    ● mini.pick 3.68ms  avante.nvim
-    ● nvim-web-devicons 8.92ms  avante.nvim
-    ● render-markdown.nvim 148.69ms  avante.nvim
-    ● telescope.nvim 8.79ms  start
+- dressing.nvim 23.91ms  avante.nvim
+- fzf-lua 10.57ms  avante.nvim
+- img-clip.nvim 61.72ms  avante.nvim
+- mini.pick 3.68ms  avante.nvim
+- nvim-web-devicons 8.92ms  avante.nvim
+- render-markdown.nvim 148.69ms  avante.nvim
+- telescope.nvim 8.79ms  start
 
-## Installation
-# 💤 LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
-
-## Installation
 
 ## 1. Introduction
 [Project Name] is a [description of what the project does, for example: web application, software tool, library, etc.] designed with [mention any unique features or benefits]. This project aims to [state the purpose or goal of the project].
