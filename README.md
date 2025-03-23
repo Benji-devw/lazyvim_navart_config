@@ -39,6 +39,15 @@ To get started with [Project Name], follow these steps:
 ## 4. Usage Instructions
 Here's a brief walkthrough of how to use [Project Name]:
 
+## 5. Note to learn
+- LSP (Language Server Protocol) : Fournit l'auto-complétion, les diagnostics et d'autres fonctionnalités avancées pour différents langages.
+- Lua : Langage utilisé pour configurer Neovim et LazyVim.
+- Mason : Gestionnaire pour installer et gérer les serveurs LSP, linters et formatters.
+- grep : est un outil en ligne de commande utilisé pour rechercher du texte dans des fichiers.
+- Telescope : Un puissant moteur de recherche fuzzy pour explorer fichiers, buffers, diagnostics, etc.
+lspconfig / nvim-lspconfig : Plugin pour configurer facilement les serveurs LSP avec Neovim.
+- Treesitter : Améliore la coloration syntaxique et l'analyse du code en utilisant une meilleure compréhension syntaxique.
+
 ## 6. License
 [Project Name] is licensed under the [MIT License](https://github.com/[username]/[project_name]/blob/master/LICENSE) or [other applicable license].
 
