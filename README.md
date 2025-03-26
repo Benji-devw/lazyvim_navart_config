@@ -1,53 +1,68 @@
-# 💤 LazyVim
+# 💤 LazyVim Configuration
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Configuration personnalisée de [LazyVim](https://github.com/LazyVim/LazyVim) pour Neovim.
 
-## TODO:
-- "echasnovski/mini.surround"
-- "neovim/nvim-lspconfig"
-- "nvim-lua/plenary.nvim",
+## 🚀 Fonctionnalités
 
+- Auto-complétion avec LSP
+- Support multi-langages
+- Interface utilisateur moderne
+- Outils de recherche et de navigation avancés
+- Support pour les images et le markdown
+- Intégration GitHub Copilot
 
-## Config use:
-- "David-Kunz/gen.nvim"
-- "github/copilot.vim",
-- "neovim/nvim-lspconfig",
-- dressing.nvim 23.91ms  avante.nvim
-- fzf-lua 10.57ms  avante.nvim
-- img-clip.nvim 61.72ms  avante.nvim
-- mini.pick 3.68ms  avante.nvim
-- nvim-web-devicons 8.92ms  avante.nvim
-- render-markdown.nvim 148.69ms  avante.nvim
-- telescope.nvim 8.79ms  start
+## 📦 Plugins Principaux
 
+### Performance
+- dressing.nvim
+- fzf-lua
+- img-clip.nvim
+- mini.pick
+- nvim-web-devicons
+- render-markdown.nvim
+- telescope.nvim
 
+### Configuration
+- David-Kunz/gen.nvim
+- github/copilot.vim
+- neovim/nvim-lspconfig
 
-## 1. Introduction
-[Project Name] is a [description of what the project does, for example: web application, software tool, library, etc.] designed with [mention any unique features or benefits]. This project aims to [state the purpose or goal of the project].
+## 🛠️ Installation
 
+1. Sauvegardez votre configuration actuelle :
+```bash
+mv ~/.config/nvim ~/.config/nvim.bak
+```
 
-## 3. Installation Guide
-To get started with [Project Name], follow these steps:
+2. Clonez ce dépôt :
+```bash
+git clone https://github.com/Benji-devw/lazyvim_navart_config.git ~/.config/nvim
+```
 
-1. Clone the repository from GitHub: `git clone https://github.com/[username]/[project_name].git`
-2. Navigate to the nvim parent directory: `~/.config`
-3. Rename the `nvimd` directory to `mv nvim nvim.bak`
-3. Install required dependencies using [npm, yarn, pip, etc.]
+4. Lancez Neovim et attendez l'installation des plugins :
+```bash
+nvim
+```
 
+## 📚 Notes d'Apprentissage
 
-## 4. Usage Instructions
-Here's a brief walkthrough of how to use [Project Name]:
+### Concepts Clés
+- **LSP** : Fournit l'auto-complétion, les diagnostics et fonctionnalités avancées
+- **Lua** : Langage de configuration pour Neovim
+- **Mason** : Gestionnaire de serveurs LSP, linters et formatters
+- **Telescope** : Moteur de recherche fuzzy pour explorer fichiers et buffers
+- **Treesitter** : Améliore la coloration syntaxique et l'analyse du code
+...
 
-## 5. Note to learn
-- LSP (Language Server Protocol) : Fournit l'auto-complétion, les diagnostics et d'autres fonctionnalités avancées pour différents langages.
-- Lua : Langage utilisé pour configurer Neovim et LazyVim.
-- Mason : Gestionnaire pour installer et gérer les serveurs LSP, linters et formatters.
-- grep : est un outil en ligne de commande utilisé pour rechercher du texte dans des fichiers.
-- Telescope : Un puissant moteur de recherche fuzzy pour explorer fichiers, buffers, diagnostics, etc.
-lspconfig / nvim-lspconfig : Plugin pour configurer facilement les serveurs LSP avec Neovim.
-- Treesitter : Améliore la coloration syntaxique et l'analyse du code en utilisant une meilleure compréhension syntaxique.
+### Outils Utiles
+- **grep** : Recherche de texte dans les fichiers
+- **lspconfig** : Configuration des serveurs LSP
+- **mini.surround** : Manipulation de texte avancée
+- **plenary.nvim** : Utilitaires Lua pour Neovim
+...
 
-## 6. License
-[Project Name] is licensed under the [MIT License](https://github.com/[username]/[project_name]/blob/master/LICENSE) or [other applicable license].
+## 📝 TODO
 
+- [ ] Configurer "echasnovski/mini.surround"
+- [ ] Optimiser "neovim/nvim-lspconfig"
+- [ ] Intégrer "nvim-lua/plenary.nvim"
