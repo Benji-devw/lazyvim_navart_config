@@ -4,8 +4,9 @@
 -- Add any additional autocmds here
 -- with `vim.api.nvim_create_autocmd`
 vim.api.nvim_create_autocmd({
-  "InsertLeave",
+  -- "InsertLeave",
   -- "TextChanged",
+  "FocusLost",
 }, {
   pattern = { "*" },
   command = "silent! wall",
